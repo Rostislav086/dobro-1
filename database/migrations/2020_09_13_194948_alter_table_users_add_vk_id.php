@@ -13,7 +13,7 @@ class AlterTableUsersAddVkId extends Migration
      */
     public function up()
     {
-        Schema::table('fonds', function (Blueprint $table) {
+        Schema::table('users', function (Blueprint $table) {
            $table->bigInteger('vk_id')->unsigned()->index('vk_id_index');
         });
     }
@@ -25,7 +25,7 @@ class AlterTableUsersAddVkId extends Migration
      */
     public function down()
     {
-        Schema::table('fonds', function (Blueprint $table) {
+        Schema::table('users', function (Blueprint $table) {
             $table->dropColumn('vk_id');
         });
     }

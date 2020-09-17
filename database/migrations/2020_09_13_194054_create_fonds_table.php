@@ -16,14 +16,14 @@ class CreateFondsTable extends Migration
         Schema::create('fonds', function (Blueprint $table) {
             $table->id();
             $table->string('name', 255);
-            $table->boolean('available');
+            $table->boolean('available')->default(true);
             $table->string('type_prefix', 255);
             $table->bigInteger('category_id')->unsigned();
             $table->bigInteger('vendor_id')->unsigned();
             $table->text('image');
+            $table->text('url')->nullable(false);
             $table->decimal('price', 11, 2);
             $table->foreign('category_id')->references('id')->on('categories');
-            $table->foreign('vendor_id')->references('id')->on('vendors');
             $table->timestamps();
         });
     }
