@@ -1,0 +1,57 @@
+// Основной  цвет
+%colorBg {
+  background-color: #005ff9;
+}
+
+// Основной чёрный цвет для текста, иконок и проч
+%colorText {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+// 	Цвет для текста аннотаций, сносок и атрибутов
+%colorTextSecondary {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #999999;
+}
+
+// 	Цвет для основных ссылок
+%colorLink {
+  color: #005bd1;
+}
+
+// 	Цвет для посещённых ссылок
+%colorLinkVisited {
+  color: #528fdf;
+}
+
+// Основное действие на экране. Может быть только одна на экране.
+%button-main {
+  width: 48px;
+  padding: 0px 20px 0px 20px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #005ff9;
+  color: #ffffff;
+  border: 1px;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+}
+
+%button {
+  width: 48px;
+  padding: 0px 20px 0px 20px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333333;
+  border: 1px;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+}

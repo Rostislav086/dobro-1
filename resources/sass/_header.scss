@@ -1,0 +1,36 @@
+.header {
+    @extend %colorBg;
+    display: flex;
+    justify-content: center;
+
+    &-container {
+        margin: 5px 20px 5px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-logo {
+    }
+
+    &-nav {
+        &__link {
+            margin: 0px 10px 0px 10px;
+            color: #ffffff;
+            line-height: 18px;
+            font-size: 15px;
+            font-family: Helvetica, Arial, Tahoma, sans-serif;
+            text-decoration: none;
+
+            &:hover {
+                opacity: 0.4;
+            }
+        }
+    }
+}
+
+.container {
+}
+
+.logo {
+}
