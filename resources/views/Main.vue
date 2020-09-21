@@ -2,7 +2,9 @@
   <main class="main">
     <div class="container main-container">
       <div class="user">
-        <div class="user-avatar"></div>
+        <div class="user-avatar">
+          <!-- <img src="{{ Storage::url('/public/img/logo.png') }}" alt=""> -->
+        </div>
         <p class="user-name">Сергей Постолов</p>
         <p class="user-desription">Щедрый меценат</p>
         <div class="user-info">тут должна быть инфа</div>

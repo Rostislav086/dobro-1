@@ -2244,6 +2244,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -48799,87 +48801,8 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("main", { staticClass: "main" }, [
-    _c("div", { staticClass: "container main-container" }, [
-      _vm._m(0),
-      _vm._v(" "),
-      _c("div", { staticClass: "content" }, [
-        _c(
-          "div",
-          { staticClass: "tabs" },
-          [
-            _c("input", {
-              staticClass: "tabs-marathon__my",
-              attrs: {
-                type: "radio",
-                name: "tabs-marathon",
-                id: "tab-btn-1",
-                value: "",
-                checked: ""
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              { staticClass: "tabs-btn__title", attrs: { for: "tab-btn-1" } },
-              [_vm._v("Мои марафоны")]
-            ),
-            _vm._v(" "),
-            _c("input", {
-              staticClass: "tabs-marathon__search",
-              attrs: {
-                type: "radio",
-                name: "tabs-marathon",
-                id: "tab-btn-2",
-                value: ""
-              }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              { staticClass: "tabs-btn__title", attrs: { for: "tab-btn-2" } },
-              [_vm._v("Найти марафоны")]
-            ),
-            _vm._v(" "),
-            _c("MyMarathon", {
-              staticClass: "my tabs-content",
-              attrs: { id: "tabs-content__1" }
-            }),
-            _vm._v(" "),
-            _c("SearchMarathon", {
-              staticClass: "search tabs-content",
-              attrs: { id: "tabs-content__2" }
-            })
-          ],
-          1
-        )
-      ])
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "user" }, [
-      _c("div", { staticClass: "user-avatar" }),
-      _vm._v(" "),
-      _c("p", { staticClass: "user-name" }, [_vm._v("Сергей Постолов")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "user-desription" }, [_vm._v("Щедрый меценат")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "user-info" }, [_vm._v("тут должна быть инфа")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "user-support" }, [_vm._v("Написать в поддержку")])
-    ])
-  }
-]
-render._withStripped = true
+var render = function () {}
+var staticRenderFns = []
 
 
 
