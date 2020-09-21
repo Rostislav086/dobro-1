@@ -150,6 +150,7 @@
 }
 
 .news {
+  position: relative;
   margin: 23px 0px 0px 0px;
   min-height: 80px;
   height: 90%;
@@ -167,7 +168,7 @@
   background: #FF9E00;
   -webkit-box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.48);
           box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.48);
-  border-radius: 2px;
+  border-radius: 7px;
 }
 
 .news-title {
@@ -201,11 +202,140 @@
   text-decoration: none;
 }
 
+.tabs-content {
+  height: 100%;
+}
+
+.my-marathon {
+  margin: 65px 38px 0px 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.my-marathon__block {
+  width: 291px;
+  min-height: 344px;
+}
+
+.item {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 291px;
+  min-height: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item-top {
+  margin: 18px 0px 0px 27px;
+}
+
+.item-top__title {
+  width: 60%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.item-top__date {
+  margin: 20px 0px 0px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.item-bottom {
+  margin: 0px 0px 30px 27px;
+}
+
+.item-bottom__money {
+  margin: 0px 0px 20px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.item-bottom__percent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.item-description {
+  margin: 19px 0px 0px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.item-button {
+  margin: 10px 0px 0px 0px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 38px;
+  width: 139px;
+  height: 38px;
+  background: #FCFCFC;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.item-img__share {
+  margin: 0px 0px 0px 20px;
+}
+
+.marathon-search {
+  margin: 0px 0px 0px 57px;
+  padding: 30px 0px 0px 0px;
+}
+
+.marathon-search__label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.marathon-search__input {
+  margin: 36px 0px 0px 13px;
+  padding: 0px 0px 0px 20px;
+  width: 487px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #AEAEAE;
+  outline: none;
+}
+
 .header {
   background-color: #005ff9;
 }
 
-.user-name, .tabs-btn__title, .my-top__link:active, .news-title, .news-description, .news-display {
+.user-name, .tabs-btn__title, .my-top__link:active, .news-title, .news-description, .news-display, .item-top__title, .item-top__date, .item-bottom__money, .item-bottom__percent, .item-description, .marathon-search__label {
   font-family: Helvetica, Arial, sans-serif;
   color: #333333;
 }
@@ -229,7 +359,7 @@
   background-color: #005ff9;
 }
 
-.user-name, .tabs-btn__title, .my-top__link:active, .news-title, .news-description, .news-display {
+.user-name, .tabs-btn__title, .my-top__link:active, .news-title, .news-description, .news-display, .item-top__title, .item-top__date, .item-bottom__money, .item-bottom__percent, .item-description, .marathon-search__label {
   font-family: Helvetica, Arial, sans-serif;
   color: #333333;
 }
