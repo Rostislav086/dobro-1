@@ -18,7 +18,7 @@
 export default {
     data() {
         return {
-            logo: "{{ Storage::url('/img/logo.png') }}"
+            logo: "/img/logo.png"
         };
     }
 };

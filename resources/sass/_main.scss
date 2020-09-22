@@ -57,15 +57,15 @@
     flex-basis: 70%;
 }
 
-.tabs>div {
+.tabs > div {
     display: none;
 }
 
-.tabs>input[type="radio"] {
+.tabs > input[type="radio"] {
     display: none;
 }
 
-.tabs>input[type="radio"]:checked+label {
+.tabs > input[type="radio"]:checked + label {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: #e5e5e5;
@@ -73,9 +73,11 @@
 
 .tabs {
     &-marathon {
-        &__my {}
+        &__my {
+        }
 
-        &__search {}
+        &__search {
+        }
     }
 
     &-btn {
@@ -89,14 +91,16 @@
     }
 
     &-content {
-        &__my {}
+        &__my {
+        }
 
-        &__search {}
+        &__search {
+        }
     }
 }
 
-#tab-btn-1:checked~#tabs-content__1,
-#tab-btn-2:checked~#tabs-content__2 {
+#tab-btn-1:checked ~ #tabs-content__1,
+#tab-btn-2:checked ~ #tabs-content__2 {
     display: block;
 }
 
@@ -136,7 +140,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #FF9E00;
+    background: #ff9e00;
     box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.48);
     border-radius: 7px;
 
@@ -155,7 +159,7 @@
         line-height: 38px;
         width: 139px;
         height: 38px;
-        background: #FCFCFC;
+        background: #fcfcfc;
         border-radius: 7px;
         text-decoration: none;
     }
@@ -168,12 +172,11 @@
         line-height: 38px;
         width: 139px;
         height: 38px;
-        background: #FCFCFC;
+        background: #fcfcfc;
         border-radius: 7px;
         text-decoration: none;
     }
 }
-
 
 .tabs {
     &-content {
@@ -182,7 +185,6 @@
 }
 
 .my {
-
     &-marathon {
         margin: 65px 38px 0px 38px;
         display: flex;
@@ -190,6 +192,7 @@
         flex-wrap: wrap;
 
         &__block {
+            margin: 0px 0px 30px 0px;
             width: 291px;
             min-height: 344px;
         }
@@ -211,15 +214,16 @@
 
         &__title {
             @extend %colorText;
-            width: 60%;
+            width: 70%;
             font-style: normal;
             font-weight: normal;
             font-size: 24px;
             line-height: 28px;
         }
 
-        &__date {
+        &__description {
             @extend %colorText;
+            width: 80%;
             margin: 20px 0px 0px 0px;
             font-style: normal;
             font-weight: normal;
@@ -266,7 +270,7 @@
         line-height: 38px;
         width: 139px;
         height: 38px;
-        background: #FCFCFC;
+        background: #fcfcfc;
         border-radius: 7px;
         text-decoration: none;
     }
@@ -277,7 +281,6 @@
 }
 
 .marathon {
-
     &-search {
         margin: 0px 0px 0px 57px;
         padding: 30px 0px 0px 0px;
@@ -295,13 +298,13 @@
             padding: 0px 0px 0px 20px;
             width: 487px;
             height: 44px;
-            background: #FFFFFF;
+            background: #ffffff;
             border-radius: 10px;
             font-style: italic;
             font-weight: normal;
             font-size: 14px;
             line-height: 16px;
-            color: #AEAEAE;
+            color: #aeaeae;
             outline: none;
         }
     }
