@@ -23,7 +23,6 @@ class CreateFondsTable extends Migration
             $table->text('image');
             $table->decimal('price', 11, 2);
             $table->foreign('category_id')->references('id')->on('categories');
-            $table->foreign('vendor_id')->references('id')->on('vendors');
             $table->timestamps();
         });
     }

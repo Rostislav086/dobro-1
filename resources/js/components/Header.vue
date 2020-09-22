@@ -2,7 +2,7 @@
     <header class="header">
         <div class="container header-container">
             <a href="#" class="header-logo">
-                <img src="#" alt="logo dobro" class="logo" />
+                <img src="/img/logo.png" alt="logo dobro" class="logo" />
             </a>
             <nav class="header-nav">
                 <a href="#" class="header-nav__link">Контакты</a>
