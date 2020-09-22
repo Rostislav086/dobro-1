@@ -48408,7 +48408,6 @@ var staticRenderFns = [
     return _c("header", { staticClass: "header" }, [
       _c("div", { staticClass: "container header-container" }, [
         _c("a", { staticClass: "header-logo", attrs: { href: "#" } }, [
-          _vm._v("\n            sss"),
           _c("img", {
             staticClass: "logo",
             attrs: { src: "/img/logo.png", alt: "logo dobro" }
